@@ -9,8 +9,9 @@ describe('Test OpenHoldingStatus getHolding', () => {
   it('Dummy', function(done) {
 
     done();
-    
-    /*this.timeout(5000);
+
+    /*
+    this.timeout(5000);
     setTimeout(done, 5000);
     const config = {
       wsdl: 'http://openholdingstatus.addi.dk/2.2/?wsdl'
@@ -26,8 +27,8 @@ describe('Test OpenHoldingStatus getHolding', () => {
       console.log(holdingsResult);
       assert.equal(holdingsResult['responder']['willLend'], 'true');
       done();
-    });*/
-    
+    });
+    */
 
   });
 });
