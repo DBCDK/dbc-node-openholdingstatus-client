@@ -26,5 +26,5 @@ export default function OpenHoldingstatus(config = null) {
 
   return {
     getHolding: getHolding.bind(null, holdingsClient)
-  }
+  };
 }
